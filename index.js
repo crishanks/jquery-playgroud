@@ -9,4 +9,9 @@ $(document).ready(function() {
   $('div:nth-child(2)').click(function() {
     $(this).html('CLICKED');
   });
+  $('div:nth-child(3)').hover(function() {
+    $(this).toggle('scale');
+  });
+  //Ul Styles
+
 });
