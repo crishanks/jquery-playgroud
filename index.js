@@ -6,4 +6,7 @@ $(document).ready(function() {
   }).mouseleave(function() {
     $(this).css('background-color', 'white');
   });
+  $('div:nth-child(2)').click(function() {
+    $(this).html('CLICKED');
+  });
 });
